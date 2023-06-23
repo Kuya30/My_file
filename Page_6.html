@@ -12,12 +12,30 @@
         p {
             background-color: white;
         }
+        a, li:link {color:#ffff99; }
+        a, li:visited {color: #FFCCCC;}
+        a, li:active {color: red;}
+        a, li:hover {color:orange;}
+
+        ul {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .nav li {
+            display: inline-block;
+            font-size: 15px;
+            padding: 10px;
+            border: solid 2px;
+            background-color: rgba(51, 204, 204, 0.2)
+        }
     </style>
 </head>
 <body>
     <p>start coding now</p>
     <ul class="nav">
-        <li><a href="#top" style= "color: #000000; ">Return Top</a></li>
+        <li><a href="#top" style=" text-decoration: none; color: #000000; ">Return Top</a></li>
+        <li><a style="text-decoration:none; color: #000000" href="My_Blog.html">Home</a></li>
     </ul>
 </body>
 </html>
